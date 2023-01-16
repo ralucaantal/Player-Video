@@ -7,9 +7,6 @@ const video = document.getElementById("videoPrincipal");
 const canvas = document.getElementById("videoCanvas");
 const ctx = canvas.getContext("2d");
 
-// canvas.width = video.videoWidth;
-// canvas.height = video.videoHeight;
-
 ctx.drawImage(video, 0, 0);
 
 let requestId;
